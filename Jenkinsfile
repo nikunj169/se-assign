@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = "YOUR_DOCKERHUB_USERNAME/imt2023068"
+        DOCKER_IMAGE = "niki9937/imt2023068"
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
     
